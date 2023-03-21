@@ -38,6 +38,16 @@ We have built regression models using various algorithms such as:
 For each algorithm, we have used pipelines to preprocess the data and train the model. We have also used hyperparameter tuning to find the best set of hyperparameters for each model.
 
 ### <ins> **Conclusion:** </ins>
+
+| Model | R2 Score |
+|-------|----------|
+| Linear Regression |   0.6687   |
+| Ridge Regression |   0.6684   |
+| Random Forest Regression |   0.8579   |
+| XGBoost Regression |  0.8505    |
+| Decision Tree Regression |  0.9081    |
+
+
 In conclusion, we have analyzed the Boston Housing Dataset and built regression models using various algorithms. The XGBoost Regression model performed the best with an R2 score of 0.91. The other models also performed well with R2 scores between 0.66 and 0.85. The models can be used to predict the price of a house given its characteristics.
 
 ### <ins> **Future Work and Notes:** </ins>
